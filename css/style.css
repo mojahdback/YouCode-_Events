@@ -1,4 +1,14 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
 
 .items {
     max-width: 900px;
@@ -51,49 +61,17 @@ nav {
     padding: 11px 20px;
     border-radius: 5px;
 }
-
-.header {
-  display: flex;
-  justify-content: space-around;
-  padding: 15px;
- 
-}
-
-.nav {
-  display: flex;
-  gap: 25px;
-}
-.items {
-  display: flex;
-  list-style: none;
-  gap: 25px;
-  font-family: serif;
-  font-size: 22px;
+.nav-links a:hover{
+ border-bottom: 2px solid #c2410c;
+padding-bottom: 7px;
+color: #c2410c;
 
 }
-
-.items li > a {
-  text-decoration: none;
-  color: black;
-}
-.nav .btn{
-    padding: 5px 25px;
-    margin: 5px;
-    background-color:#C2410C;
-    border: none;
-    border-radius: 8px;
-    font-size: 15px;
-    color: white;
-
 .detail_contanier1 {
     background-color: #ffedd5;
     padding: 48px 0;
 }
 
-<<<<<<< HEAD
-}
-
-=======
 .detail_contanier1 h1 {
     font-size: 28px;
     margin-bottom: 15px;
@@ -105,9 +83,3 @@ nav {
     color: #666;
     line-height: 1.5;
 }
-.nav-links a:hover{
- border-bottom: 2px solid #c2410c;
-padding-bottom: 7px;
-color: #c2410c;
-}
->>>>>>> 707d916 (feat : add first section html&Css)
