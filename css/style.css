@@ -1,6 +1,6 @@
 
 
-.container {
+.items {
     max-width: 900px;
     width: 90%;
     margin: 0 auto;
@@ -29,18 +29,13 @@ nav {
 }
 
 
-.links {
+.nav-links {
     display: flex;
     align-items: center;
     gap: 20px;
 }
-.links a:hover{
- border-bottom: 2px solid #c2410c;
-padding-bottom: 7px;
-color: #c2410c;
 
-}
-.links a {
+.nav-links a {
     text-decoration: none;
     color: #222;
     font-size: 13px;
@@ -49,7 +44,8 @@ color: #c2410c;
 
 
 
-.links .btn {
+
+.nav-links .btn {
     background-color: #c2410c;
     color: white;
     padding: 11px 20px;
@@ -89,6 +85,29 @@ color: #c2410c;
     font-size: 15px;
     color: white;
 
-
+.detail_contanier1 {
+    background-color: #ffedd5;
+    padding: 48px 0;
 }
 
+<<<<<<< HEAD
+}
+
+=======
+.detail_contanier1 h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+.detail_contanier1 p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
+.nav-links a:hover{
+ border-bottom: 2px solid #c2410c;
+padding-bottom: 7px;
+color: #c2410c;
+}
+>>>>>>> 707d916 (feat : add first section html&Css)
