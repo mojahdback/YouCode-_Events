@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+ 
+}
+
+.nav {
+  display: flex;
+  gap: 25px;
+}
+.items {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  font-family: serif;
+  font-size: 22px;
+
+}
+
+.items li > a {
+  text-decoration: none;
+  color: black;
+}
+.nav .btn{
+    padding: 5px 25px;
+    margin: 5px;
+    background-color:#C2410C;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    color: white;
+
+
+}
