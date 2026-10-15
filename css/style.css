@@ -9,7 +9,7 @@ body {
 }
 
 .items {
-    max-width: 900px;
+    max-width: 2000px;
     width: 90%;
     margin: 0 auto;
 }
@@ -80,6 +80,7 @@ nav {
 .detail_contanier2 {
     background-color: #f9f9f9;
     padding: 45px 0;
+    justify-content: center;
 }
 
 .detail_contanier2 .items {
@@ -100,9 +101,9 @@ nav {
 }
 
 .carte {
-    /* 3 cartes par ligne : 2 espaces de 24px = 48px */
-    flex: 0 0 calc((100% - 48px) / 3);
-    background-color: white;
+    
+flex: 0 0 calc((100% - 48px) / 3); 
+  background-color: white;
     border: 1px solid #e5e5e5;
     border-radius: 15px;
     padding: 24px;
@@ -141,3 +142,37 @@ nav {
     font-size: 13px;
     line-height: 1.5;
 }
+
+.detail_contanier2 p{
+
+    color: #666;
+}
+.carte2{
+    background-color: white;
+    border: 1px solid #e5e5e5;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 194px;
+}
+
+.logo2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.carte2 p {
+color:black;
+ display: flex;
+ align-items:center;
+ gap: 10px;
+}
+.Partenaires{
+display: flex;
+justify-content: space-between;
+padding: 60px;
+}
+
+
