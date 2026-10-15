@@ -1,14 +1,8 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-body {
-    font-family: Arial, sans-serif;
-}
-
 
 .items {
     max-width: 900px;
@@ -16,8 +10,7 @@ body {
     margin: 0 auto;
 }
 
-
-header {
+main {
     background-color: white;
 }
 
@@ -28,7 +21,6 @@ nav {
     align-items: center;
 }
 
-
 .logo {
     font-size: 14px;
     font-weight: bold;
@@ -37,7 +29,6 @@ nav {
 .logo span {
     color: #c2410c;
 }
-
 
 .nav-links {
     display: flex;
@@ -52,21 +43,20 @@ nav {
     font-weight: bold;
 }
 
-
-
-
 .nav-links .btn {
     background-color: #c2410c;
     color: white;
     padding: 11px 20px;
     border-radius: 5px;
 }
-.nav-links a:hover{
- border-bottom: 2px solid #c2410c;
-padding-bottom: 7px;
-color: #c2410c;
 
+
+.nav-links a:not(.btn):hover {
+    border-bottom: 2px solid #c2410c;
+    padding-bottom: 7px;
+    color: #c2410c;
 }
+
 .detail_contanier1 {
     background-color: #ffedd5;
     padding: 48px 0;
