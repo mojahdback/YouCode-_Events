@@ -9,33 +9,135 @@
 <body>
     <header>
         <div class="logo">
-        <div class="logo1">YouCode</div>
-        <div class="logo2">Events</div>
+            <h1 class="logo1">YouCode <span class="logo2">Events</span></h1>
         </div>
 
-        <div class="nav-links">
+        <nav class="nav-links">
             <a href="index.html">Accueil</a>
             <a href="evenements.html">Événements</a>
             <a href="intervenants.html">intervenants</a>
             <button>S'inscrire</button>
-        </div>
+        </nav>
 
     </header>
-
-    <section>
+<main>
+    <section class="hero">
         <h1>Événements</h1>
         <p>Retrouvez les ateliers, conférences, hackathons et rencontres à venir, puis inscrivez-vous à ceux qui vous intéressent.</p>
     </section>
+
+
+
+
+    <div class="sections">
     <section>
+        <div class="events-header">
+
         <h2>A venir</h2>
         <p>6 événements</p>
+    </div>
+        <div class ="card-container">
+        <article>
+            <img src="Événements\Card\Image.png">
+            <div class="event-info">
+                    <span class="badge orange">Atelier</span>
+                    <h2>Atelier Flexbox et CSS Grid</h2>
+
+                    <div class="event-details">
+                        <p><span class="icon">▦</span> 12 nov. 2026 · 14h00</p>
+                        <p><span class="icon">♧</span> Salle Turing, YouCode Safi</p>
+                    </div>
+
+                    <a href="#">Voir le détail <span>→</span></a>
+                </div>
+
+        </article>
+        <article>
+            <img src="Événements\Card\Image-1.png">
+            <div class="event-info">
+                    <span class="badge green">Conférence</span>
+                    <h2>Accessibilité Web : par où commencer ?</h2>
+
+                    <div class="event-details">
+                        <p><span class="icon">▦</span> 19 nov. 2026 · 10h00</p>
+                        <p><span class="icon">♧</span> Amphithéâtre, YouCode Youssoufia</p>
+                    </div>
+
+                    <a href="#">Voir le détail <span>→</span></a>
+                </div>
+
+        </article>
+        <article>
+            <img src="Événements\Card\Image-2.png">
+            <div class="event-info">
+                    <span class="badge orange">Hackathon</span>
+                    <h2>Hackathon Green Code</h2>
+
+                    <div class="event-details">
+                        <p><span class="icon">▦</span> 28 et 29 nov. 2026</p>
+                        <p><span class="icon">♧</span> Campus YouCode Safi</p>
+                    </div>
+
+                    <a href="#">Voir le détail <span>→</span></a>
+                </div>
+        </article>
+        <article>
+            <img src="Événements\Card\Image-3.png">
+                 <div class="event-info">
+                    <span class="badge green">Rencontre</span>
+                    <h2>Rencontre avec des développeurs front-end</h2>
+
+                    <div class="event-details">
+                        <p><span class="icon">▦</span> 3 déc. 2026 · 16h00</p>
+                        <p><span class="icon">♧</span> Espace Lovelace, YouCode Nador</p>
+                    </div>
+
+                    <a href="#">Voir le détail <span>→</span></a>
+                </div>
+
+        </article>
+        <article>
+            <img src="Événements\Card\Image-4.png">
+                            <div class="event-info">
+                    <span class="badge orange">Atelier</span>
+                    <h2>Atelier Git Flow en pratique</h2>
+
+                    <div class="event-details">
+                        <p><span class="icon">▦</span> 10 déc. 2026 · 14h00</p>
+                        <p><span class="icon">♧</span> Salle Hopper, YouCode Safi</p>
+                    </div>
+
+                    <a href="#">Voir le détail <span>→</span></a>
+                </div>
+
+
+        </article>
+        <article>
+            <img src="Événements\Card\Image-5.png">
+                            <div class="event-info">
+                    <span class="badge green">Conférence</span>
+                    <h2>Du design au code : travailler avec Figma</h2>
+
+                    <div class="event-details">
+                        <p><span class="icon">▦</span> 17 déc. 2026 · 10h00</p>
+                        <p><span class="icon">♧</span> Amphithéâtre, YouCode Youssoufia</p>
+                    </div>
+
+                    <a href="#">Voir le détail <span>→</span></a>
+                </div>
+
+
+        </article>
+</div>
+</div>
+
 
 
 
 
 
     </section>
-
+</main> 
     <footer>
  
         <div> 
@@ -87,12 +189,19 @@
         color: #C2410C;
     }
     header {
-        background-color: #E7E5E4;
+        background-color: #FFFFFF;
         color: #fff;
         padding: 20px;
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+
+    .nav-links {
+        display: flex;
+        align-items: center;
+        gap : 30px;
+
     }
 
   
@@ -105,8 +214,104 @@
         padding: 10px 15px;
         cursor: pointer;
     }
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    .hero h1 { 
+        font-size: 36px;
+        margin-bottom: 20px;
 
-   
+    }
+    .hero {
+        background-color: #FFEDD5;
+        color: #1C1917;
+        padding: 40px;
+        align-content: space-between;
+        }
+        .sections {
+        background-color: #E7E5E4;
+        padding: 30px;
+        }
+        .events-header {
+            color: #1C1917;
+        padding: 40px;
+        align-content: space-between;
+        }
+
+
+
+
+        .event-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.badge {
+    align-self: flex-start;
+    padding: 7px 13px;
+    border-radius: 20px;
+    font-size: 13px;
+    margin-bottom: 14px;
+}
+
+.orange {
+    background-color: #ffedd5;
+    color: #b9380a;
+}
+
+.green {
+    background-color: #c7f8ef;
+    color: #087e73;
+}
+
+.event-info h2 {
+    font-size: 19px;
+    line-height: 1.4;
+    margin-bottom: 25px;
+    min-height: 53px;
+}
+
+.event-details {
+    margin-top: auto;
+    margin-bottom: 15px;
+}
+
+.event-details p {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    color: #625d59;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 7px;
+}
+
+.icon {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.event-info a {
+    color: #c43b08;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.event-info a span {
+    font-size: 22px;
+    margin-left: 3px;
+}
+
+.event-info a:hover {
+    color: #7f2505;
+}
+
+
     footer {
         background-color: #f1f1f1;
         padding: 20px;
