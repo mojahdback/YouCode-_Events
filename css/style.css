@@ -23,6 +23,7 @@
 }
 .home_header .nav {
   display: flex;
+  align-items: center;
   gap: 25px;
 }
 .home_header .items {
@@ -79,7 +80,8 @@
   font-size: 17px;
   background-color: #ccfbf1;
   border: none;
-  border-radius: 10%;
+  border-radius: 15%;
+  width: 130px;
 }
 
 .home_container1 .hero1 > .item2 {
@@ -157,6 +159,8 @@
   color: #9a3412;
   font-size: 16px;
   padding: 3px 10px;
+  
+  
 }
 
 .home_container2 .hero2 > .items:nth-child(2) .topic > span {
@@ -169,6 +173,7 @@
   font-family: sans-serif;
   font-size: 20px;
   font-weight: 700;
+  margin-top: 8px;
 }
 
 .home_container2 .hero2 > .items .topic > .item {
@@ -238,7 +243,6 @@
 
 .home_container4 .hero > .items{
   width: 248px;
-  height: 112px;
   border: solid 1px #E7E5E4;
   background-color: #FFFFFF;
   padding: 25px;
@@ -266,9 +270,11 @@
 /* footer */
 
 .home_footer{
-  padding: 25px  5px ;
+  margin: 0;
+  padding: 30px  5px ;
   background-color: #1C1917;
-   color: #FFFFFF;
+  color: #FFFFFF;
+  
 }
 
 .home_footer .top1{
@@ -294,6 +300,16 @@
   color: #FFFFFF;
  
 }
+
+
+.home_footer .container1 .hero1{
+  display:  flex;
+  flex-direction: column;
+  gap:10px;
+ 
+}
+
+
 
 .home_footer .container2 > .hero1 .item1{
   font-size: 18px;
@@ -321,16 +337,340 @@
  
 }
 
+.home_footer .top1 > .container2 > .hero2 {
+  display:  flex;
+  flex-direction: column;
+  gap:10px;
+ 
+}
+
+
 .home_footer .container2 .hero1 > a{
   text-decoration: none;
   color: #FFFFFF;
   
 }
 
+.line{
+   padding-bottom: 20px;
+   color: #E7E5E4;
+}
+
 .home_footer > .top2{
+  border-top: 1px solid #555;
+  padding-top: 15px;
   color:#FFFFFF;
   font-size: 16px;
   margin-left: 10%;
 
 }
+
+
+/* inscription */
+
+.detail_contanier1 h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+.detail_contanier1 p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
+.detail_contanier1 {
+    background-color: #ffedd5;
+    padding: 48px 0;
+} 
+
+
+/* form */
+
+
+.main{
+  margin: 0;
+  padding: 30px 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #252321;
+  background: #f7f6f5;
+}
+
+.form-card {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 32px;
+  background: #fff;
+  border: 1px solid #e3e0de;
+  border-radius: 15px;
+}
+
+.form-card > h2 {
+  font-size: 32px;
+}
+
+.form-card p {
+  margin: 0 0 28px;
+  color: #5f5a57;
+  font-size: 14px;
+}
+
+.form-inputs {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px 16px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.input input{
+  padding: 12px 0px ;
+  border-radius: 8px;
+  border: 1px solid gray;
+}
+
+.input label,
+.level legend {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.full-width {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.full-width select{
+  width: 100%;
+  height: 40px;
+  border-radius: 8px;
+  
+}
+
+textarea {
+  width: 100%;
+  min-width: 0;
+  padding: 14px 16px;
+  border: 1px solid #88817d;
+  border-radius: 9px;
+  background: #fff;
+  color: #282522;
+  font: inherit;
+  font-size: 15px;
+  outline: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #625d59;
+  opacity: 1;
+}
+
+input:required:user-invalid,
+select:required:user-invalid{
+  border: 2px solid #e00000;
+}
+
+input:required:user-valid{
+  border: 2px solid #008c35;
+}
+
+.error,
+.success {
+  display: none;
+  margin-top: 8px;
+  font-size: 13px;
+}
+
+.error {
+  color: #e00000;
+}
+
+.success {
+  color: #008c35;
+}
+
+input:user-invalid ~ .error {
+  display: block;
+}
+
+input:user-valid ~ .success {
+  display: block;
+}
+
+
+select {
+  appearance: none;
+  cursor: pointer;
+  color: #625d59;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23625d59' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 18px center;
+  padding-right: 44px;
+}
+
+.level {
+  margin: 26px 0 0;
+  padding: 0;
+  border: 0;
+}
+
+.level legend {
+  padding: 0;
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px 24px;
+}
+
+.options label {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+input[type="radio"] {
+  appearance: none;
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  border: 2px solid #88817d;
+  border-radius: 50%;
+  cursor: pointer;
+  display: grid;
+  place-content: center;
+  flex-shrink: 0;
+}
+
+input[type="radio"]::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #c83e08;
+  transform: scale(0);
+}
+
+input[type="radio"]:checked {
+  border-color: #c83e08;
+}
+
+input[type="radio"]:checked::before {
+  transform: scale(1);
+}
+
+/* Message */
+.message-field textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* Consent checkbox */
+.consent {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin: 24px 0;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  margin: 0;
+  border: 2px solid #88817d;
+  border-radius: 4px;
+  cursor: pointer;
+  display: grid;
+  place-content: center;
+}
+
+input[type="checkbox"]:checked {
+  background: #c83e08;
+  border-color: #c83e08;
+}
+
+input[type="checkbox"]:checked::before {
+  content: "✓";
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.consent label {
+  padding-top: 2px;
+  font-size: 15px;
+  line-height: 1.6;
+  cursor: pointer;
+}
+
+
+/* Submit button */
+button {
+  padding: 15px 24px;
+  border: 0;
+  border-radius: 8px;
+  background: #c83e08;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #a93205;
+}
+
+/* Mobile responsive layout */
+@media (max-width: 560px) {
+  body {
+    padding: 16px 10px;
+  }
+
+  .form-card {
+    padding: 24px 18px;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+
+  .full-width {
+    margin-top: 24px;
+  }
+
+  .radio-options {
+    gap: 14px;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
 
