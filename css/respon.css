@@ -214,6 +214,51 @@
     margin-left: 0;
     font-size: 13px;
   }
+
+   .description {
+        padding: 25px 5%;
+    }
+
+    .description h1 {
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+
+    .description p {
+        font-size: 13px;
+        line-height: 1.7;
+    }
+
+
+  .main {
+    padding: 16px 10px;
+  }
+
+  .form-card {
+    padding: 24px 18px;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+
+  .form-inputs {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+
+  .full-width {
+    margin-top: 24px;
+  }
+
+  .radio-options {
+    gap: 14px;
+  }
+
+  button {
+    width: 100%;
+  }
+    
 }
 /* tablet */
 
@@ -392,5 +437,25 @@
   .home_footer > .top2 {
     margin-left: 0;
   }
+
+   .description {
+        padding: 30px 6%;
+    }
+
+    .description h1 {
+        font-size: 26px;
+        margin-bottom: 12px;
+    }
+
+    .description p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
 }
+
+
+
+
+
+
 

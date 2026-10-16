@@ -368,20 +368,20 @@
 
 /* inscription */
 
-.detail_contanier1 h1 {
+.description h1 {
     font-size: 28px;
     margin-bottom: 15px;
     color: #222;
 }
 
-.detail_contanier1 p {
+.description p {
     font-size: 14px;
     color: #666;
     line-height: 1.5;
 }
-.detail_contanier1 {
+.description {
     background-color: #ffedd5;
-    padding: 48px 0;
+    padding: 40px 13%;
 } 
 
 
@@ -510,7 +510,6 @@ select {
   appearance: none;
   cursor: pointer;
   color: #625d59;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23625d59' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: right 18px center;
   padding-right: 44px;
@@ -632,38 +631,6 @@ button {
 
 button:hover {
   background: #a93205;
-}
-
-/* Mobile responsive layout */
-@media (max-width: 560px) {
-  body {
-    padding: 16px 10px;
-  }
-
-  .form-card {
-    padding: 24px 18px;
-  }
-
-  h1 {
-    font-size: 26px;
-  }
-
-  .form-grid {
-    grid-template-columns: 1fr;
-    gap: 22px;
-  }
-
-  .full-width {
-    margin-top: 24px;
-  }
-
-  .radio-options {
-    gap: 14px;
-  }
-
-  button {
-    width: 100%;
-  }
 }
 
 
