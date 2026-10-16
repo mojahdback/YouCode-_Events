@@ -267,6 +267,52 @@
   .event-card {
     flex: 1 1 300px;
 }
+
+ .detail_contanier1 {
+        padding: 30px 0;
+    }
+
+    .detail_contanier1 h1 {
+        font-size: 24px;
+    }
+
+    .detail_contanier1 p {
+        font-size: 13px;
+    }
+
+    .detail_contanier2 {
+        padding: 30px 0;
+    }
+
+    .detail_contanier2 h2 {
+        font-size: 22px;
+    }
+
+    .intervenants {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .carte {
+        flex: 1 1 100%;
+        width: 100%;
+    }
+
+    .Partenaires {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 20px;
+    }
+
+    .carte2 {
+        width: 100%;
+        max-width: 350px;
+        flex: 1 1 auto;
+    }
+
     
 }
 /* tablet */
@@ -459,6 +505,29 @@
     .description p {
         font-size: 14px;
         line-height: 1.6;
+    }
+
+    .intervenants {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .carte {
+        flex: 1 1 45%;
+    }
+
+    .Partenaires {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 30px;
+    }
+
+    .carte2 {
+        flex: 1 1 40%;
+        width: auto;
     }
 }
 

@@ -741,4 +741,147 @@ button:hover {
     color: #7f2505;
 }
 
+.detail_contanier1 {
+    background-color: #ffedd5;
+    padding: 48px 0;
+}
+
+.detail_contanier1 h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+.detail_contanier1 p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.detail_contanier2 {
+    background-color: #f9f9f9;
+    padding: 45px 0;
+    justify-content: center;
+}
+
+.detail_contanier2 .items_inter{
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.detail_contanier2 h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.intervenants {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    gap: 24px;
+}
+
+.carte {
+    
+    flex: 0 0 calc((100% - 48px) / 3); 
+    flex-wrap: wrap;
+    background-color: white;
+    border: 1px solid #e5e5e5;
+    border-radius: 15px;
+    padding: 24px;
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.orange {
+    background-color: #ffedd5;
+}
+
+.vert {
+    background-color: #dcfce7;
+}
+
+.carte h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.carte h4 {
+    color: #c2410c;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.carte p {
+    color: #666;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.detail_contanier2 p{
+    color: #666;
+}
+.carte2{
+    background-color: white;
+    border: 1px solid #e5e5e5;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 194px;
+    height: 96px;
+}
+
+
+.carte2 p {
+color:black;
+ display: flex;
+ align-items:center;
+ gap: 10px;
+}
+.Partenaires{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+flex-grow: 1;
+padding: 60px;
+}
+footer {
+    background-color: #1c1917;
+    color: white;
+    padding: 30px 8%;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links {
+    display: flex;
+    gap: 40px;
+}
+
+footer a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.footer-bottom {
+    border-top: 1px solid gray;
+    margin-top: 30px;
+    padding-top: 20px;
+}
 
