@@ -75,9 +75,13 @@
         }
         article {
             background-color: white;
+            border-radius: 12px;
 
         }
-
+img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
 
 
 
