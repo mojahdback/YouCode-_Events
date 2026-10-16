@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/respon.css">
+    <title>Inscription</title>
+  </head>
+  <body>
+    <header class="home_header">
+      <h1 class="logo">YouCode <span>Events</span></h1>
+      <nav class="nav" id="main-navigation">
+        <ul class="items">
+          <li class="item"><a href="index.html">Accueil</a></li>
+          <li class="item"><a href="evenements.html">Événements</a></li>
+          <li class="item"><a href="intervenants.html">Intervenants</a></li>
+        </ul>
+        <button class="btn"><a href="inscription.html">S'inscrire</a></button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="description">
+        <div class="title">
+          <h1>Inscription</h1>
+          <p>
+          Réservez votre place à un atelier, une conférence, un hackathon ou une rencontre. L'inscription est gratuite.
+          </p>
+        </div>
+      </section>
+
+      <section class="main" >
+           
+          <form class="form-card">
+             <h2>Vos informations</h2>
+            <p>Les champs marqués * sont obligatoires.</p>
+            <div class="form-inputs"  >
+              <div class="input">
+                    <label for="nom">Nom *</label>
+                    <input type="text" id="nom" placeholder="Votre nom" required>
+
+              </div>
+               <div class="input">
+                    <label for="prenom">Prenom*</label>
+                    <input type="text" id="prenom" placeholder="mohamed" required>
+                    <small class="success">Champ valide</small>
+                    
+              </div>
+
+               <div class="input">
+                    <label for="email">Adresse e-mail *</label>
+                    <input type="email" id="email" placeholder="example@gmail.com"  required>
+                     <small class="error"> Erreur : saisissez une adresse valide,
+                         par exemple nom@domaine.ma.
+                      </small>
+                    
+              </div>
+
+              <div class="input">
+                 <label for="telephone">Téléphone</label>
+              <input type="tel" id="telephone" placeholder="06 12 34 56 78" pattern="[0-9 +().-]{8,20}"
+                 title="Saisissez un numéro de téléphone valide.">
+
+              </div>
+              </div>
+              <br>
+
+               <div class="full-width">
+                 <label for="evenement">Événement choisi *</label>
+                 <select  id="evenement" required>
+                  <option value="" selected disabled> Choisir un événement </option>
+                  <option value="atelier">atelier pratique</option>
+                  <option value="conference">Atelier pratique</option>
+                  <option value="formation">Formation</option>
+
+                 </select>
+              </div>
+
+              <br>
+              
+
+              <fieldset class="level">
+                <legend>Niveau *</legend>
+                <div class="options">
+                  <label>
+                    <input type="radio" value="debutant" required checked>
+                    <span>debutant</span>
+                  </label>
+                   <label>
+            <input
+              type="radio" value="intermediaire">
+            <span>Intermediaire</span>
+          </label>
+
+          <label>
+            <input
+              type="radio"
+              name="niveau"
+              value="avance"
+            >
+            <span>Avancé</span>
+          </label>
+                  
+
+                </div>
+
+              </fieldset>
+              <br>
+               <div class="input full-width message-field">
+        <label for="message">Message (facultatif)</label>
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Vos attentes, vos questions..."
+        ></textarea>
+      </div>
+
+       <div class="consent">
+        <input
+          type="checkbox"
+          id="consentement"
+          required
+        >
+        <label for="consentement">
+          J'accepte que mes données servent à gérer
+          mon inscription. *
+        </label>
+      </div>
+
+      <button type="submit">Valider mon inscription</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="home_footer">
+      <div class="top1">
+        <div class="container1">
+          <div class="hero1">
+            <h3 class="item1">YouCode Events</h3>
+            <p class="item2">
+              Les ateliers, conférences, hackathons et rencontres de <br />
+              YouCode, réunis au même endroit.
+            </p>
+          </div>
+        </div>
+        <div class="container2">
+          <div class="hero1">
+            <p class="item1">Navigation</p>
+            <a href="index.html">Accueil</a>
+            <a href="evenements.html">Événements</a>
+            <a href="intervenants.html">Intervenants et partenaires</a>
+            <a href="inscription.html">Inscription</a>
+          </div>
+          <div class="hero2">
+            <p class="item1">Contact</p>
+            <p class="item2">contact@youcode-events.example</p>
+            <p class="item3">Youssoufia · Safi · Nador</p>
+          </div>
+        </div>
+      </div>
+        <div class="line"></div>
+     
+      <p class="top2">
+        © 2026 YouCode Events — site fictif réalisé en formation.
+      </p>
+    </footer>
+  </body>
+</html>
