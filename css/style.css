@@ -55,10 +55,11 @@ nav {
 }
 
 .nav-links a:not(.btn):hover {
-    border-bottom: 2px solid #c2410c;
+    border-bottom: 2px solid rgba(194, 65, 12, 1);
     padding-bottom: 7px;
     color: #c2410c;
 }
+
 
 .detail_contanier1 {
     background-color: #ffedd5;
@@ -173,6 +174,58 @@ color:black;
 display: flex;
 justify-content: space-between;
 padding: 60px;
+}
+footer {
+    background-color: #1c1917;
+    color: white;
+    padding: 30px 8%;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links {
+    display: flex;
+    gap: 40px;
+}
+
+footer a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.footer-bottom {
+    border-top: 1px solid gray;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+@media (max-width: 800px) {
+    .carte {
+        flex: 0 0 calc((100% - 24px) / 2);
+    }
+}
+
+@media (max-width: 540px) {
+    nav {
+        height: auto;
+        padding: 15px 0;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .carte {
+        flex: 0 0 100%;
+    }
 }
 
 
