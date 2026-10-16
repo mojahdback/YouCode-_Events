@@ -108,6 +108,7 @@ flex: 0 0 calc((100% - 48px) / 3);
     border: 1px solid #e5e5e5;
     border-radius: 15px;
     padding: 24px;
+   
 }
 
 .avatar {
@@ -158,6 +159,7 @@ flex: 0 0 calc((100% - 48px) / 3);
     gap: 10px;
     width: 194px;
     height: 96px;
+   
 }
 
 

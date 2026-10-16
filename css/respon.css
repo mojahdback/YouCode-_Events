@@ -1,23 +1,81 @@
-@media (max-width: 800px) {
+
+
+/* POUR TABLETE */
+
+
+@media (max-width: 1024px) {
+
+    .intervenants {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
     .carte {
-        flex: 0 0 calc((100% - 24px) / 2);
+        flex: 1 1 45%;
+    }
+
+    .Partenaires {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 30px;
+    }
+
+    .carte2 {
+        flex: 1 1 40%;
+        width: auto;
     }
 }
 
-@media (max-width: 540px) {
-    nav {
-        height: auto;
-        padding: 15px 0;
-        flex-wrap: wrap;
-        gap: 15px;
+
+/*pour Mobile*/  
+
+@media (max-width: 600px) {
+
+    .detail_contanier1 {
+        padding: 30px 0;
     }
 
-    .nav-links {
-        flex-wrap: wrap;
-        gap: 12px;
+    .detail_contanier1 h1 {
+        font-size: 24px;
+    }
+
+    .detail_contanier1 p {
+        font-size: 13px;
+    }
+
+    .detail_contanier2 {
+        padding: 30px 0;
+    }
+
+    .detail_contanier2 h2 {
+        font-size: 22px;
+    }
+
+    .intervenants {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
     }
 
     .carte {
-        flex: 0 0 100%;
+        flex: 1 1 100%;
+        width: 100%;
+    }
+
+    .Partenaires {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 20px;
+    }
+
+    .carte2 {
+        width: 100%;
+        max-width: 350px;
+        flex: 1 1 auto;
     }
 }
