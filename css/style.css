@@ -8,7 +8,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.items {
+.items_inter {
     max-width: 2000px;
     width: 90%;
     margin: 0 auto;
@@ -25,12 +25,12 @@ nav {
     align-items: center;
 }
 
-.logo {
+.logo_inter {
     font-size: 14px;
     font-weight: bold;
 }
 
-.logo span {
+.logo_inter span {
     color: #c2410c;
 }
 
@@ -84,7 +84,7 @@ nav {
     justify-content: center;
 }
 
-.detail_contanier2 .items {
+.detail_contanier2 .items_inter{
     width: 90%;
     max-width: 1400px;
     margin: 0 auto;
@@ -157,13 +157,10 @@ flex: 0 0 calc((100% - 48px) / 3);
     align-items: center;
     gap: 10px;
     width: 194px;
+    height: 96px;
 }
 
-.logo2 {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
+
 .carte2 p {
 color:black;
  display: flex;
