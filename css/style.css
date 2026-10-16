@@ -26,6 +26,14 @@
   align-items: center;
   gap: 25px;
 }
+.home_header .nav a:hover {
+    color: #c83e08;
+}
+
+.home_header .nav button:hover {
+    color:black;
+}
+
 .home_header .items {
   display: flex;
   list-style: none;
@@ -350,6 +358,11 @@
   color: #FFFFFF;
   
 }
+.home_footer .container2 .hero1 > a:hover{
+  color: brown;
+}
+
+
 
 .line{
    padding-bottom: 20px;
