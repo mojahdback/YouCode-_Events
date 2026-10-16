@@ -30,7 +30,7 @@
     color: #c83e08;
 }
 
-.home_header .nav button:hover {
+ .btn > a:hover {
     color:black;
 }
 
@@ -55,6 +55,13 @@
   font-size: 15px;
   color: white;
 }
+
+.btn > a{
+   text-decoration: none;
+   color: white;
+}
+
+
 
 /* section one */
 
@@ -110,6 +117,15 @@
   border-radius: 5px;
   font-size: 15px;
 }
+
+.btn1 > a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn1 > a:hover{
+  color: black;
+} 
 
 .home_container1 .btn2 {
   padding: 16px 32px;
